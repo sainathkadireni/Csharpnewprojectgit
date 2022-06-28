@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Day1.excercises\**" />
+    <Compile Remove="Day2.Excercises\**" />
+    <Compile Remove="DayOne1\**" />
+    <EmbeddedResource Remove="Day1.excercises\**" />
+    <EmbeddedResource Remove="Day2.Excercises\**" />
+    <EmbeddedResource Remove="DayOne1\**" />
+    <None Remove="Day1.excercises\**" />
+    <None Remove="Day2.Excercises\**" />
+    <None Remove="DayOne1\**" />
+  </ItemGroup>
+
+</Project>
